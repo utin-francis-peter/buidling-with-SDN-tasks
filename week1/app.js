@@ -15,3 +15,12 @@ export const handleFetch = async (url) => {
     console.log(error.message);
   }
 };
+
+export const millisecsToSecsAndMins = (millisecs) => {
+  const seconds = Math.floor(millisecs / 1000);
+  const minutes = Math.floor(seconds / 60);
+  return {
+    seconds,
+    minutes,
+  };
+};
