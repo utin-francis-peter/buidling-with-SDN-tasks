@@ -1,0 +1,39 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  overflow-y: hidden;
+}
+
+header {
+  background: rgb(196, 118, 16);
+  padding: 1rem;
+}
+nav,
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul {
+  gap: 3rem;
+}
+ul li {
+  list-style-type: none;
+}
+nav a {
+  text-decoration: none;
+  color: #000;
+}
+.logo {
+  color: #fff;
+}
+
+main {
+  min-height: 100vh;
+  background: #000;
+}
